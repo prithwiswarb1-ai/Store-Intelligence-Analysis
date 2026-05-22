@@ -1,0 +1,71 @@
+{
+  "stores": [
+    {
+      "store_id": "STORE_BLR_001",
+      "city": "Bangalore",
+      "open_hours": "10:00-22:00",
+
+      "cameras": [
+        {
+          "camera_id": "CAM_ENTRY_01",
+          "type": "ENTRY",
+          "video_path": "D:/Data1/CAM 3.mp4"
+        },
+        {
+          "camera_id": "CAM_FLOOR_01",
+          "type": "FLOOR",
+          "video_path": "D:/Data1/CAM 1.mp4"
+        },
+         {
+          "camera_id": "CAM_FLOOR_02",
+          "type": "FLOOR",
+          "video_path": "D:/Data1/CAM 2.mp4"
+        },
+        {
+          "camera_id": "CAM_BILLING_01",
+          "type": "BILLING",
+          "video_path": "D:/Data1/CAM 5.mp4"
+        }
+      ],
+
+      "zones": [
+        {
+          "zone_id": "SKINCARE",
+          "polygon": [
+            [100, 100],
+            [400, 100],
+            [400, 400],
+            [100, 400]
+          ]
+        },
+        {
+          "zone_id": "MAKEUP",
+          "polygon": [
+            [500, 100],
+            [800, 100],
+            [800, 400],
+            [500, 400]
+          ]
+        },
+        {
+          "zone_id": "HAIRCARE",
+          "polygon": [
+            [100, 500],
+            [400, 500],
+            [400, 800],
+            [100, 800]
+          ]
+        },
+        {
+          "zone_id": "BILLING",
+          "polygon": [
+            [500, 500],
+            [900, 500],
+            [900, 900],
+            [500, 900]
+          ]
+        }
+      ]
+    }
+  ]
+}

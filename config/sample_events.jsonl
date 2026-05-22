@@ -1,0 +1,9 @@
+{"event_id":"1","store_id":"STORE_BLR_001","camera_id":"CAM_ENTRY_01","visitor_id":"VIS_001","event_type":"ENTRY","timestamp":"2026-03-03T14:00:00Z","zone_id":null,"dwell_ms":0,"is_staff":false,"confidence":0.96,"metadata":{"queue_depth":null,"sku_zone":null,"session_seq":1}}
+
+{"event_id":"2","store_id":"STORE_BLR_001","camera_id":"CAM_FLOOR_01","visitor_id":"VIS_001","event_type":"ZONE_ENTER","timestamp":"2026-03-03T14:01:00Z","zone_id":"SKINCARE","dwell_ms":0,"is_staff":false,"confidence":0.92,"metadata":{"queue_depth":null,"sku_zone":"MOISTURISER","session_seq":2}}
+
+{"event_id":"3","store_id":"STORE_BLR_001","camera_id":"CAM_FLOOR_01","visitor_id":"VIS_001","event_type":"ZONE_DWELL","timestamp":"2026-03-03T14:02:00Z","zone_id":"SKINCARE","dwell_ms":42000,"is_staff":false,"confidence":0.91,"metadata":{"queue_depth":null,"sku_zone":"MOISTURISER","session_seq":3}}
+
+{"event_id":"4","store_id":"STORE_BLR_001","camera_id":"CAM_BILLING_01","visitor_id":"VIS_001","event_type":"BILLING_QUEUE_JOIN","timestamp":"2026-03-03T14:05:00Z","zone_id":"BILLING","dwell_ms":0,"is_staff":false,"confidence":0.95,"metadata":{"queue_depth":4,"sku_zone":null,"session_seq":4}}
+
+{"event_id":"5","store_id":"STORE_BLR_001","camera_id":"CAM_ENTRY_01","visitor_id":"VIS_001","event_type":"EXIT","timestamp":"2026-03-03T14:10:00Z","zone_id":null,"dwell_ms":0,"is_staff":false,"confidence":0.97,"metadata":{"queue_depth":null,"sku_zone":null,"session_seq":5}}
